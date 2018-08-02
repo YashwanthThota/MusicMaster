@@ -21,7 +21,7 @@ constructor(props) {
 
 search() {
   console.log('this.state', this.state);
-  const TOKEN = '';// get it here https://developer.spotify.com/console/get-search-item/
+  const TOKEN = 'ADD YOUR TOKEN HERE';// get it here https://developer.spotify.com/console/get-search-item/
   const BASE_URL = 'https://api.spotify.com/v1/search?';
   {/*this is a m ES6 notation*/}
   let FETCH_URL = `${BASE_URL}q=${this.state.query}&type=artist&limit=1`;
